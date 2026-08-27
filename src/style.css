@@ -1,0 +1,36 @@
+/*Variáveis*/
+:root 
+{
+  --primary-color: black;
+  --secondary-color: white;
+}
+
+/*Formatação geral da página*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*Barra de navegação*/
+.navbar {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*Lista que usei pra criar os menus*/
+.menus ul{
+  display: flex;
+}
+
+.menus li{
+  list-style: none;
+  margin: 20px;
+}
+
+
