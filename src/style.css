@@ -12,6 +12,12 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-family: Arial, sans-serif;
+}
+
 /*Barra de navegação*/
 .navbar {
   background-color: var(--primary-color);
@@ -33,4 +39,31 @@
   margin: 20px;
 }
 
+/*Estilização da área do jogo de destaque*/
+.hero {
+  background: linear-gradient(to right, #000000 10%, transparent), url('https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/bxSj4jO0KBqUgAbH3zuNjCje.jpg') center/cover;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 0 5%;
+}
 
+/*Estilização dos textos da área do jogo de destaque*/
+.hero-content h2 {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/*Estilização do botão de compra da área do jogo de destaque*/
+.btn-comprar {
+  background-color: var(--accent-color);
+  color: #fcfbfb;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
