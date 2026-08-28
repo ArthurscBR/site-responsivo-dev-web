@@ -67,3 +67,8 @@ body {
   border-radius: 2px;
   transition: 0.3s;
 }
+
+/*Estilização de uma pseudo-classe aplicada no botão de compra da área de destaque*/
+.btn-comprar:hover {
+  background-color: rgb(152, 128, 24);
+}
