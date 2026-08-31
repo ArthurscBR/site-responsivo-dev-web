@@ -1,0 +1,13 @@
+- [x] Flex-box: src/style.css
+- [ ] CSS Grid:
+- [x] Media queries (Responsividade): src/style.css
+- [ ] Media queries (condições/recursos):
+- [x] CSS Variables: src/style.css
+- [ ] Image modal:
+- [ ] Animations @keyframes:
+- [ ] Backgrounds: 
+- [x] CSS Units: src/style.css
+- [ ] Pseudo-elements:
+- [x] Pseudo-classes: src/style.css
+- [ ] Float:
+- [ ] Position + z-index Usar relative/absolute/sticky/fixed:
