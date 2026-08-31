@@ -34,6 +34,7 @@ body {
 
 /*Lista que usei pra criar os menus*/
 .menus ul{
+  font-weight: 500;
   display: flex;
 }
 
