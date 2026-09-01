@@ -19,6 +19,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 /*Barra de navegação*/
 .navbar {
   background-color: var(--primary-color);
@@ -28,6 +29,8 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-size: 20px;
+  transition: width 1s ease, height 1s ease, font-size 0.4s ease;
 }
 
 .navbar a{
@@ -37,6 +40,7 @@ body {
 
 /*Lista que usei pra criar os menus*/
 .menus ul{
+  font-weight: 500;
   display: flex;
 }
 
@@ -47,7 +51,7 @@ body {
 
 /*Estilização da área do jogo de destaque*/
 .hero {
-  background: linear-gradient(to right, #000000 10%, transparent), url('https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/bxSj4jO0KBqUgAbH3zuNjCje.jpg') center/cover;
+  background: linear-gradient(to right, var(--primary-color) 10%, transparent), url('https://image.api.playstation.com/vulcan/ap/rnd/202111/3013/bxSj4jO0KBqUgAbH3zuNjCje.jpg') center/cover;
   height: 60vh;
   display: flex;
   align-items: center;
@@ -57,7 +61,7 @@ body {
 /*Estilização dos textos da área do jogo de destaque*/
 .hero-content h2 {
   font-size: 3rem;
-  color: white;
+  color: var(--secondary-color);
   margin-bottom: 10px;
 }
 
@@ -139,3 +143,9 @@ body {
 
 
 
+@media screen and (max-width: 800px) {
+  .navbar {
+    height: 70px;
+    font-size: 15px;
+  }
+}
