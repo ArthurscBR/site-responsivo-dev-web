@@ -34,15 +34,33 @@ body {
 
 }
 
-.navbar a{
-  color: inherit;
+.navbar a {
   text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar h1 a {
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.navbar h1 a:hover {
+  color: #02517f;
+  background-color: transparent;
 }
 
 /*Lista que usei pra criar os menus*/
-.menus ul{
-  font-weight: 500;
+.menus ul {
   display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.menus li a:hover {
+  color: #02517f;
 }
 
 .menus li{
