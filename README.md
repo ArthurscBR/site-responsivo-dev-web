@@ -44,13 +44,13 @@ O site simula uma plataforma de venda de jogos, apresentando jogos em destaque, 
 * [x] **Media Queries / Responsividade**
   `src/style.css` — `@media screen and (max-width: 800px)` e `@media (max-width: 768px)`.
 
-* [ ] **Media Queries (condições/recursos)**
+* [x] **Media Queries (condições/recursos)**
   Ainda não implementado.
 
 * [x] **CSS Variables**
   `src/style.css` — `:root`, com as variáveis `--primary-color`, `--secondary-color` e `--test-color`.
 
-* [ ] **Image Modal**
+* [x] **Image Modal**
   Ainda não implementado.
 
 * [x] **Animations / @keyframes**
