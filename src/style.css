@@ -394,6 +394,12 @@ body {
     line-height: 1.5;
 }
 
+.about-float-img {
+    width: 180px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
 
 .image-modal {
     display: none;
